@@ -1,5 +1,14 @@
-﻿using AdventureGame.Core;
 
+using AdventureGame.Core;
 
-Console.WriteLine("Hello World!");
-var myclass = new Class1();
+namespace AdventureGame.Core
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Game game = new Game();
+            game.Start();
+        }
+    }
+}
